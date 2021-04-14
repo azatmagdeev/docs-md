@@ -1,8 +1,8 @@
 <?php
 
-$filename = str_replace('/','',$_SERVER['REDIRECT_URL']);
+$filename = str_replace('/', '', $_SERVER['REDIRECT_URL']);
 
-if (!file_exists ($filename)){
+if (!file_exists($filename)) {
     echo '404 not found';
 }
 
@@ -17,17 +17,17 @@ if (!file_exists ($filename)){
     <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
     <title>Document</title>
     <style>
-        pre{
+        pre {
             background-color: grey;
             color: white;
             margin: .5em;
             padding: .5em;
         }
 
-        textarea{
+        textarea {
             width: 50vw;
             height: 90vh;
-            overflow:scroll
+            overflow: scroll
         }
 
     </style>
@@ -40,12 +40,12 @@ if (!file_exists ($filename)){
             <textarea id="editor" cols="30" rows="10"></textarea>
         </label>
     </div>
-    <div id="md" style="height: 90vh;overflow: scroll"><?php echo file_get_contents($filename)  ?></div>
+    <div id="md" style="height: 90vh;overflow: scroll"><?php echo file_get_contents($filename) ?></div>
 </main>
 
 <script>
     const md = document.getElementById('md')
-           const converter = new showdown.Converter();
+    const converter = new showdown.Converter();
 
     const text = md.innerHTML
     md.innerHTML = converter.makeHtml(text)
