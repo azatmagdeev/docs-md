@@ -377,3 +377,5 @@ alt="ALT-ТЕКСТ ИЗОБРАЖЕНИЯ" width="240" height="180" border="10"
 ```no-highlight
 [![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](http://img.youtube.com/vi/ID_ВИДЕОРОЛИКА_НА_YOUTUBE/0.jpg)](http://www.youtube.com/watch?v=ID_ВИДЕОРОЛИКА_НА_YOUTUBE)
 ```
+
+[![ALT-ТЕКСТ ИЗОБРАЖЕНИЯ](http://img.youtube.com/vi/FFBTGdEMrQ4/0.jpg)](https://youtu.be/FFBTGdEMrQ4)
