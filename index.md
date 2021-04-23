@@ -3,8 +3,6 @@
 ([https://github.com/sandino/Markdown-Cheatsheet](https://github.com/sandino/Markdown-Cheatsheet))
 (перевод, [оригинал](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet))
 
-Поиграть с разметкой Markdown можно на [демо-странице](http://www.markdown-here.com/livedemo.html).
-
 ##### Содержание
 [Заголовки](#headers)  
 [Выделение](#emphasis)  
